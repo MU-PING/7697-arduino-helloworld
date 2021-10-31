@@ -1,23 +1,54 @@
 # linkIt7697-env-setup
-## LinkIt7697 
-### 簡介
-* 聯發科技於2017 年最新推出的「物聯網開發板」
+## LinkIt7697
+> 聯發科技於2017 年最新推出的「物聯網開發板」
+### 功能特色
+* 基於ARM Cortex-M4 的 MT7697 系統單晶片，時脈 192MHz
 
-* LinkIt 7697使用 MT7697 作為主控制器，該晶片核心為主流的 ARM Cortex-M4（含浮點運算器），運行時脈為192MHz
+* 802.11b/g/n 無線網路支持
 
-* 提供 Wi-Fi 和 BLE（低功耗藍芽）兩種通訊最主要的通訊功能
+* Bluetooth 4.2 低功耗藍牙
 
-* 軟體部分採用最為廣泛地FreeRTOS為作業系統，同時也提供 Arduino 開發環境，為目前學習開發物聯網應用的最佳開發平台之一。
+* 352 KB RAM
+
+* 4 MB 外接快閃記憶體
+
+* Micro-USB 接頭，用於供電與燒錄，以及提供 UART 序列埠
+
+* 提供系統重置按鈕與使用者自定義按鈕
+
+* 提供下列周邊介面：GPIO、UART、I2C、SPI、PWM、EINT、ADC、IrDA
+
+* 提供 SWD 除錯介面
+
+* 尺寸：48 x 26 mm
 
 ![圖片1](https://user-images.githubusercontent.com/93152909/139596386-a1f0e823-c49a-4468-a05f-5ca9de69c509.png)
 ### 優點
-* 使用Arduino開發環境
+* 提供 Arduino 開發環境
 
 * 內建 Wi-Fi / BLE，並包裝成好用的函式庫，能輕鬆連結雲端和手機
 
 * 足夠的內存（352K RAM /4MB Flash），可運行更複雜的應用
 
 * 官網內容相當豐富，聯發科技的工程師也會在粉絲頁提供技術問題解答
+### 比較
+* 目前( 民國110年 )LinkIt系列開發板針對物聯網應用，主要是提供兩個系列開發板：
+
+  * 「LinkIt Smart 7688 / LinkIt Smart 7688 Duo」
+
+  * 「LinkIt 7697」
+
+* 7697 以輕量化為定位，因此在性能與功能上較不即 7688/7688 Duo，以下為粗略的比較表：
+
+  ||7688/7688 Duo|7697|
+  |:-----:|:-----:|:-----:|
+  |定位|高端 IoT 節點|輕量 IoT 節點|
+  |微控制器|MT7688 (MIPS)|MT7697 (ARM Cortex-M4F)|
+  |主頻|580Mhz|196Mhz|
+  |RAM|128MB|352KB|
+  |Flash|32MB|4MB|
+  |開發環境|OpenWrt (一種Linux)<br>Arduino (Duo only)|FreeRTOS + Arduino|
+  > 實際上還有很多差別，但並非此處重點，不加以贅述
 ### 開發環境
 LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 * Arduino IDE：  
