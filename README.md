@@ -70,6 +70,7 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 ### 參考網址
 * https://blog.cavedu.com/2018/06/11/linkit-7697
 * https://reurl.cc/WXbxeZ
+
 ## Arduino 、 Arduino IDE 與 Arduino程式 簡介
 ![image](https://user-images.githubusercontent.com/93152909/139592666-c06a4e90-9b37-440f-88d6-b1de15fd1d0e.png)
 ### Arduino
@@ -95,4 +96,5 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
   
   * loop()：直到Arduino硬體關閉前會重複執行函式放的程式碼
 
-### 
+## 環境安裝與範例程式 
+> 我們使用 Arduino IDE
