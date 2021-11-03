@@ -1,6 +1,9 @@
 # 7697-arduino-helloworld
 ## 程式簡介
 ### 簡述
+> 使用 LinkIt7697 內建LED做環境測試
+### 範例圖
+<img src="https://user-images.githubusercontent.com/93152909/140119404-989b089a-e94f-4812-a44a-2bb0e3ebcc24.gif" width="600px">
 
 ## LinkIt7697
 > 聯發科技於2017 年最新推出的「物聯網開發板」
@@ -109,7 +112,7 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 5.  調整開發版設定  
 * 工具->開發板，選擇 LinkIt7697  
 ![123](https://user-images.githubusercontent.com/93152909/140097812-ddda56cc-4a64-4897-945f-e9cbb642b4e1.png)
-6.  將USB插入電腦與 LinkIt7697 即可開始燒入
+6.  將USB插入電腦與 LinkIt7697 即可開始燒入程式
 
 ### Arduino程式
 * 是否視為一種程式語言尚有爭議，但IEEE 2021前十大嵌入式程式語言中，Arduino 算是一個語言
