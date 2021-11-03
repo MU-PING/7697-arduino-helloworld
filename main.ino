@@ -1,6 +1,6 @@
 void setup() 
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT); //指定build-in LED當作輸出腳位
 }
 
 void loop() 
