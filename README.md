@@ -2,6 +2,9 @@
 ## 程式簡介
 ### 簡述
 > 使用 LinkIt7697 build-in LED 做 Arduino IDE 之測試
+#### 使用材料
+* USB線
+* LinkIt7697
 ### 範例圖
 <img src="https://user-images.githubusercontent.com/93152909/140119404-989b089a-e94f-4812-a44a-2bb0e3ebcc24.gif" width="600px">
 
