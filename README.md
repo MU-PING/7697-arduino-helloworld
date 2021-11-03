@@ -95,12 +95,21 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 ![image](https://user-images.githubusercontent.com/93152909/140057356-6a0edb5d-ec08-471c-9ae6-5391ecc2b827.png)
 
 **B. 安裝 Arduino IDE**
-1. 下載 repository中的 「arduino-1.8.16-windows.zip」 或 網址下載：https://www.arduino.cc/en/software ( 110/11/3 )
+1. 網址下載：https://www.arduino.cc/en/software ( 110/11/3 )
 ![tempsnip](https://user-images.githubusercontent.com/93152909/140058346-7158125c-6dd2-4aa1-be3c-2a34357226b0.png)
 2. 解壓縮後即可  
 ![image](https://user-images.githubusercontent.com/93152909/140059206-6c2b9e16-411a-4c25-892f-1c7af88640bc.png)
-
-
+3.  加入LinkIt 7697來源
+* 檔案 -> 偏好設定 -> 額外的開發板管理員網址，加入：http://download.labs.mediatek.com/package_mtk_linkit_7697_index.json
+* 目的是讓 Arduino IDE 的開發版管理員可以找到 LinkIt 7697的來源!!
+![image](https://user-images.githubusercontent.com/93152909/140074687-f927d5dc-5184-470e-83f9-9f2e9b97d400.png)
+4.  開發板管理員設定
+* 工具->開發板->開發板管理員，下載LinkIt7697  
+![image](https://user-images.githubusercontent.com/93152909/140095406-69252060-0be5-462c-9097-61d7abd42994.png)
+5.  調整開發版設定  
+* 工具->開發板，選擇 LinkIt7697  
+![123](https://user-images.githubusercontent.com/93152909/140097812-ddda56cc-4a64-4897-945f-e9cbb642b4e1.png)
+6.  將USB插入電腦與 LinkIt7697 即可開始燒入
 
 ### Arduino程式
 * 是否視為一種程式語言尚有爭議，但IEEE 2021前十大嵌入式程式語言中，Arduino 算是一個語言
