@@ -1,4 +1,4 @@
-# linkIt7697-arduino-hello-world
+# linkIt7697-arduino-helloworld
 ## 程式簡介
 ### 簡述
 
