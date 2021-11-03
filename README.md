@@ -1,4 +1,7 @@
-# linkIt7697-arduino-setup
+# linkIt7697-arduino-hello-world
+## 程式簡介
+### 簡述
+
 ## LinkIt7697
 > 聯發科技於2017 年最新推出的「物聯網開發板」
 ### 功能特色
@@ -83,6 +86,21 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 * 用於撰寫Arduino程式，並提供了一個程式「avrdude」用來轉換可執行檔成為能夠燒寫入Arduino硬體的韌體
 
 * 使用Arduino Software IDE編寫的程式被稱為「sketch」
+#### Arduino IDE 環境安裝
+**A. 安裝驅動程式**  
+1. 下載 repository中的 「CP210x_Windows_Drivers.zip」
+2. 開啟對應電腦位元的執行檔  
+![image](https://user-images.githubusercontent.com/93152909/140056302-e77b0e2d-aebb-4924-be11-9496f48469d4.png)
+3. 開啟Windows裝置管理員 → 確認COM port  
+![image](https://user-images.githubusercontent.com/93152909/140057356-6a0edb5d-ec08-471c-9ae6-5391ecc2b827.png)
+
+**B. 安裝 Arduino IDE**
+1. 下載 repository中的 「arduino-1.8.16-windows.zip」 或 網址下載：https://www.arduino.cc/en/software ( 110/11/3 )
+![tempsnip](https://user-images.githubusercontent.com/93152909/140058346-7158125c-6dd2-4aa1-be3c-2a34357226b0.png)
+2. 解壓縮後即可  
+![image](https://user-images.githubusercontent.com/93152909/140059206-6c2b9e16-411a-4c25-892f-1c7af88640bc.png)
+
+
 
 ### Arduino程式
 * 是否視為一種程式語言尚有爭議，但IEEE 2021前十大嵌入式程式語言中，Arduino 算是一個語言
@@ -96,5 +114,5 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
   
   * loop()：直到Arduino硬體關閉前會重複執行函式放的程式碼
 
-## Arduino IDE 環境安裝與範例程式 
+ 
 
