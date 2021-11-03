@@ -1,7 +1,7 @@
 # 7697-arduino-helloworld
 ## 程式簡介
 ### 簡述
-> 使用 LinkIt7697 內建LED做環境測試
+> 使用 LinkIt7697 內建 LED 做 Arduino IDE 之測試
 ### 範例圖
 <img src="https://user-images.githubusercontent.com/93152909/140119404-989b089a-e94f-4812-a44a-2bb0e3ebcc24.gif" width="600px">
 
