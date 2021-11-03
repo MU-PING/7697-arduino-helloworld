@@ -1,4 +1,4 @@
-# linkIt7697-env-setup
+# linkIt7697-arduino-setup
 ## LinkIt7697
 > 聯發科技於2017 年最新推出的「物聯網開發板」
 ### 功能特色
@@ -49,7 +49,7 @@
   |Flash|32MB|4MB|
   |開發環境|OpenWrt (一種Linux)<br>Arduino (Duo only)|FreeRTOS + Arduino|
   > 實際上還有很多差別，但並非此處重點，不加以贅述
-### 開發環境
+### 不同開發環境比較
 LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 * Arduino IDE：  
  提供給Maker/教育教學者的開發環境，完全相容於Arduino的程式語法，並包含LinkIt 7697獨家功能，例如LWIFI、LBLE、MCS（MediaTek Cloud Sandbox）、LFlash、LRTC及LRemote 等好用函式庫，大幅降低各種物聯網應用的開發門檻。
@@ -96,5 +96,5 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
   
   * loop()：直到Arduino硬體關閉前會重複執行函式放的程式碼
 
-## 環境安裝與範例程式 
-> 我們使用 Arduino IDE
+## Arduino IDE 環境安裝與範例程式 
+
