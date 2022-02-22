@@ -76,9 +76,7 @@ LinkIt 7697針對不同族群的開發者，提供了三種開發環境：
 |對象|Maker/教育工作者|教育工作者|專業開發者|
 |工具|文字式|圖像式|文字式|
 |特性|豐富的軟硬周邊資源<br>封裝過好用的函式庫|簡易使用|最高彈性<br>最高效能<br>開發複雜度較高|
-### 參考網址
-* https://blog.cavedu.com/2018/06/11/linkit-7697
-* https://reurl.cc/WXbxeZ
+
 
 ## Arduino 、 Arduino IDE 與 Arduino程式 簡介
 ![image](https://user-images.githubusercontent.com/93152909/139592666-c06a4e90-9b37-440f-88d6-b1de15fd1d0e.png)
